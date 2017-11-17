@@ -5,3 +5,11 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+font-family: 'Open Sans', sans-serif;
+Typefaces: Open Sans
+Text sizes: 4rem, 2rem
+Colours: rgba(0, 0, 0, .5)
+Expected class names: .img-flex, .banner
+Banner maximum height: 500px
+Content maximum width: 50em
