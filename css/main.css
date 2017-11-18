@@ -6,48 +6,57 @@ html {
   box-sizing: inherit;
 }
 
-.banner {
-  position: relative;
-  max-height: 500px;
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
-h2 {
+.banner {
+  position: relative;
+}
+
+div {
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.banner-content {
+  position: absolute;
+  width: 100%;
   max-width: 50em;
-  font-family: 'Open Sans', sans-serif;
+  top: 5px;
+  left: 25px;
+  bottom: auto;
+}
+
+.banner-content h2 {
+  text-align: left;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
   font-size: 4rem;
   font-weight: 700;
   background-color: rgba(0, 0, 0, .5);
   color: white;
-  line-height: 1.5;
-  margin: 0;
   position: absolute;
-  top: 0;
-  left: 0;
+  transform: none;
+  top: 5px;
+  left: 25px;
+  bottom: auto;
 }
 
-p {
-  max-width: 50em;
-  font-size: 2rem;
-  font-family: 'Open Sans', sans-serif;
+.banner-content p {
+  text-align: left;
   margin: 0;
+  font-size: 2rem;
+  font-family: "Open Sans", sans-serif;
   font-style: italic;
   position: absolute;
   top: 200px;
-  left: 0;
+   left: 25px;
 }
-
-body {
-  margin: 0;
-}
-
-.img-flex {
-  max-width: 100%
-}
-
-font-family: 'Open Sans', sans-serif;
-Typefaces: Open Sans
-Text sizes: 4rem, 2rem
-Colours: rgba(0, 0, 0, .5)
-Expected class names: .img-flex, .banner
-Banner maximum height: 500px
-Content maximum width: 50em
