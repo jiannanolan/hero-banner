@@ -9,15 +9,11 @@ html {
 body {
   margin: 0;
   padding: 0;
-  overflow: hidden;
 }
 
 .banner {
-  position: relative;
-}
-
-div {
   max-height: 500px;
+  position: relative;
   overflow: hidden;
 }
 
@@ -30,10 +26,10 @@ div {
   position: absolute;
   width: 100%;
   max-width: 50em;
-  top: 5px;
-  left: 25px;
+  left: 50%;
+  top: 0;
   bottom: auto;
-  transform: translate(0);
+  transform: translate(-50%, 70%);
 }
 
 .banner-content h2 {
@@ -44,11 +40,9 @@ div {
   font-weight: 700;
   background-color: rgba(0, 0, 0, .5);
   color: white;
-  position: absolute;
-  transform: none;
-  top: 1px;
-  left: 0;
-  bottom: auto;
+  position:absolute;
+  top: 5px;
+  left: 25px;
 }
 
 .banner-content p {
@@ -57,12 +51,4 @@ div {
   font-size: 2rem;
   font-family: "Open Sans", sans-serif;
   font-style: italic;
-  position: absolute;
-  top: 200px;
-  left: 25px;
-}
-
-p {
-  top: 200px;
-  left: 25px;
 }
