@@ -41,8 +41,8 @@ body {
   background-color: rgba(0, 0, 0, .5);
   color: white;
   position:absolute;
-  top: 5px;
-  left: 25px;
+  top: 10px;
+  left: 10px;
 }
 
 .banner-content p {
@@ -51,4 +51,7 @@ body {
   font-size: 2rem;
   font-family: "Open Sans", sans-serif;
   font-style: italic;
+  position:absolute;
+  top: 200px;
+  left: 10px;
 }
