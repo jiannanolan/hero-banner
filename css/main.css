@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -13,8 +14,8 @@ body {
 
 .banner {
   max-height: 500px;
-  position: relative;
   overflow: hidden;
+  position: relative;
 }
 
 .img-flex {
@@ -22,27 +23,28 @@ body {
   width: 100%;
 }
 
+img {
+  width
+}
 .banner-content {
   position: absolute;
-  width: 100%;
   max-width: 50em;
+  width: 100%;
+  bottom: 1.5rem;
   left: 50%;
-  top: 0;
-  bottom: auto;
-  transform: translate(-50%, 70%);
+  transform: translateX(-50%);
+  padding-left: 1.4rem;
+  padding-right: 1.4rem;
 }
 
 .banner-content h2 {
   text-align: left;
-  margin: 0;
   font-family: "Open Sans", sans-serif;
   font-size: 4rem;
   font-weight: 700;
   background-color: rgba(0, 0, 0, .5);
   color: white;
-  position:absolute;
-  top: 10px;
-  left: 10px;
+  margin-bottom: .25em;
 }
 
 .banner-content p {
@@ -51,7 +53,4 @@ body {
   font-size: 2rem;
   font-family: "Open Sans", sans-serif;
   font-style: italic;
-  position:absolute;
-  top: 200px;
-  left: 10px;
 }
