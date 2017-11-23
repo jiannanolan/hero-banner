@@ -23,9 +23,6 @@ body {
   width: 100%;
 }
 
-img {
-  width
-}
 .banner-content {
   position: absolute;
   max-width: 50em;
@@ -44,7 +41,7 @@ img {
   font-weight: 700;
   background-color: rgba(0, 0, 0, .5);
   color: white;
-  margin-bottom: .25em;
+  display: inline;
 }
 
 .banner-content p {
